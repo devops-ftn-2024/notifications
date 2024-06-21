@@ -16,7 +16,7 @@ services:
       RABBITMQ_USERNAME: guest1
       RABBITMQ_PASSWORD: guest1
     ports:
-      - "3005:3005"
+      - "3006:3006"
     restart: always
     healthcheck:
       test:
